@@ -1,4 +1,4 @@
-cookbook_file "/srv/www/vinceblogwordpress/current/wp-config.php" do
+cookbook_file "/srv/www/vinceblog/wp-config.php" do
   source "wp-config.php"
   mode '0755'
   action :create
