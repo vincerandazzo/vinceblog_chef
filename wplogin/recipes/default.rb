@@ -1,3 +1,3 @@
-file '/srv/www/vinceblog/wp-login.php' do
+file '/srv/www/vinceblog/current/wp-login.php' do
     action :delete
 end
